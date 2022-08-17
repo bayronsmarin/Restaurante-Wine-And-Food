@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/> 
+    <meta name="description" content="Restaurante Wine And Food"/>
+    <meta name="robots" content="index,follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Wine And Food</title>
+    <link rel="stylesheet" href=""/>
+  </head>
+  <body>
+      <!--Header-Principla-->
+      <header>
+          <div><!--Logo de la empresa-->
+              <img src="../assets/pics/logo-restaurante.png" alt="Restaurante Wine And Food" width="120px"/>
+          </div>
+          <nav>
+              <ul><!--Etique contenedora del menu-->
+                  <li><a href="../index.html">Home</a></li>
+                  <li><a href="./nosotros.html">Quienes Somos</a></li>
+                  <li><a href="./menu.html">Menu</a></li>
+                  <li><a href="./reservas.html">Reservas</a></li>
+                  <li><a href="./contactenos.html">Contáctenos</a></li>
+              </ul>
+          </nav>
+          <h1>Contáctenos</h1>
+      </header>
+      <!--Main-Principla-->
+      <main>
+        <!--Primera-Sección-Main-->
+        <section>
+            <figure>
+                <img src="../assets/pics/imagen-contacto.jpg" alt="Fotografia equipo de trabajo"/>
+            </figure>
+            <div>
+                <p>Los datos facilitados a través de este formulario serán tratados por Restaurante Wine
+                   And Food de acuerdo a lo establecido en nuestra política de privacidad con la finalidad
+                   de poder enviarle información sobre nuestros productos / servicios.</p>
+                <p>Los datos recabados por este formulario no se cederán a terceros salvo por obligación
+                   legal.</p>
+                <p>Le recordamos que usted tiene derecho al acceso, rectificación, limitación de 
+                   tratamiento, supresión, portabilidad y oposición al tratamiento de sus datos dirigiendo
+                   su petición a la dirección postal indicada o al correo electrónico 
+                   administracion@wineandfood.com, igualmente puede dirigirse a nosotros para cualquier 
+                   aclaración adicional.</p>
+            </div>
+        </section>
+        <!--Segunda-Sección-Main-->
+        <section>
+            <!--Formulario-->
+            <form action=""> 
+                <label for="nombre">
+                  <span>Nombre Completo</span>
+                  <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo"/>
+                </label>
+                <br>
+                <label for="correo">
+                    <span>Email</span>
+                    <input type="email" id="correo" name="correo" autocomplete="email" required/>
+                </label>
+                <br>
+                <label for="mensaje">
+                    <span>Mensaje</span>
+                    <textarea id="mensaje" name="mensaje" rows="10" cols="50"></textarea>
+                </label>
+                <br>
+                <label for="ciudad">                
+                    <span>Selecciona una Ciudad</span>
+                    <select id="ciudad" name="ciudad">
+                        <option value="bogota">Bogotá</option>
+                        <option value="cartagena">Cartagena</option>
+                        <option value="medellin">Medellín</option>
+                        <option value="cali">Cali</option>
+                    </select>
+                </label>
+                <br>
+                <input type="submit"/>
+            </form>
+        </section>
+        
+      </main>
+      <!--Footer-Principla-->
+      <footer>
+        <ul><!--Menu Inferior-->
+          <li><a href="#">Política de privacidad</a></li>
+          <li><a href="#">Política de Cookis </a></li>
+        </ul>
+        <div><!--Iconos Redes Sociales-->
+          <a href="#"><img src="../assets/pics/facebook.png" width="50px" alt="Logo de Facebook"/></a>
+          <a href="#"><img src="../assets/pics/instagram.png" width="50px" alt="Logo de Instragram"/></a>
+          <a href="#"><img src="../assets/pics/twitter.png" width="50px" alt="Logo de Twitter"/></a>
+        </div>
+      </footer>
+  </body>
+</html>

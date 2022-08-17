@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/> 
+    <meta name="description" content="Restaurante Wine And Food"/>
+    <meta name="robots" content="index,follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Wine And Food</title>
+    <link rel="stylesheet" href=""/>
+  </head>
+  <body>
+      <!--Header-Principla-->
+      <header>
+          <div><!--Logo de la empresa-->
+              <img src="../assets/pics/logo-restaurante.png" alt="Restaurante Wine And Food" width="120px"/>
+          </div>
+          <nav>
+              <ul><!--Etique contenedora del menu-->
+                  <li><a href="../index.html">Home</a></li>
+                  <li><a href="./nosotros.html">Nosotros</a></li>
+                  <li><a href="./menu.html">Menu</a></li>
+                  <li><a href="./reservas.html">Reservas</a></li>
+                  <li><a href="./contactenos.html">Contáctenos</a></li>
+              </ul>
+          </nav>
+          <h1>Reservas</h1>
+      </header>
+      <!--Main-Principla-->
+      <main>
+        <!--Primera-Sección-Main-->
+        <section>
+          <h2>Reserva Una Mesa</h2>
+          <p>En Wine And Food estamos tomando todas las medidas preventivas posibles para garantizar la
+             salud y seguridad de nuestros huéspedes, personal y proveedores. Como resultado de las 
+             prácticas que estamos implementando, podemos asegurarle que está cenando en el ambiente más
+             seguro posible.</p>
+          <form action="">
+            <label for="nombre">
+              <span>Nombre Completo</span>
+              <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo"/>
+            </label>
+            <br>
+            <label for="dia">
+              <span>Día de la Reserva</span>
+              <input type="date" id="dia" name="dia"/>
+            </label>
+            <br>
+            <label for="hora">
+              <span>Hora de la Reserva</span>
+              <input type="time" id="hora" name="hora"/>
+            </label>
+            <br>
+            <label for="numeroPersonas">
+              <span>Número de Personas</span>
+              <select id="numeroPersonas" name="numeroPersonas">
+                <option value="1">1 personas</option>
+                <option value="2-peronas">2 personas</option>
+                <option value="3-peronas">3 personas</option>
+                <option value="4-peronas">4 personas</option>
+                <option value="5-peronas">5 personas</option>
+                <option value="6-peronas">6 personas</option>
+                <option value="7-peronas">7 personas</option>
+                <option value="8-peronas">8 personas</option>
+              </select>
+            </label>
+            <br>
+            <input type="submit"/>
+          </form>
+        </section>
+      </main>
+      <!--Footer-Principla-->
+      <footer>
+        <ul><!--Menu Inferior-->
+          <li><a href="#">Política de privacidad</a></li>
+          <li><a href="#">Política de Cookis </a></li>
+        </ul>
+        <div><!--Iconos Redes Sociales-->
+          <a href="#"><img src="../assets/pics/facebook.png" width="50px" alt="Logo de Facebook"/></a>
+          <a href="#"><img src="../assets/pics/instagram.png" width="50px" alt="Logo de Instragram"/></a>
+          <a href="#"><img src="../assets/pics/twitter.png" width="50px" alt="Logo de Twitter"/></a>
+        </div>
+      </footer>
+  </body>
+</html>

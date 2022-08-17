@@ -1,0 +1,186 @@
+:root {
+    --white:#FFFFFF;
+    --black:#000000;
+    --tomato:#ff6347;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family:'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+/* === Home === */
+/* --- Header --- */
+.header {
+    background-image: url('../pics/header-home.jpg');
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 16rem;
+    padding: 0.5rem 0;
+}
+
+.bar-navigation {
+    height: 12rem;
+    background-color: rgb(0 0 0 / 70%); 
+}
+
+.header-menu {   
+    display: flex;
+    align-items: center;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.main-menu__item a {
+    color: var(--white);
+    font-size: 1.8rem;
+    margin-right: 1.5rem;
+}
+
+.main-menu__item a:hover {
+    color: var(--tomato);
+}
+
+.header-title {
+    font-size: 10rem;
+    color: var(--white);
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 26rem;
+}
+
+/* --- Section-one --- */
+.section-one {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.section-one__text {
+    margin-top: 8rem;
+    font-size: 2.5rem;
+}
+
+/* --- Section-two --- */
+
+.section-two {
+    margin-top: 5rem;
+}
+
+.section-two__one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section-two__two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+/* --- Section-Three --- */
+.section-three {
+    background-image: url('../pics/section-three__home.jpg');
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 5rem;
+}
+
+.section-three__background {
+    background-color: rgb(0 0 0 / 80%);
+    height: 40rem; 
+}
+
+.section-three__text {
+    font-size: 2.5rem;
+    color: var(--white);
+    padding-top: 15rem;
+}
+
+.section-three__button {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.button {
+    background-color: var(--tomato);
+    font-size: 1.8rem;
+    color: var(--white);
+    text-align: center;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: .5rem;
+}
+
+/* --- Section-Four --- */
+.section-four {
+    margin-top: 5rem;
+}
+/* --- Footer --- */
+.footer {
+    background-color: var(--black);
+    height: 15rem;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu__item a {
+    color: var(--white);
+    font-size: 1.9rem;
+}
+.footer-menu__item a:hover {
+    color: var(--tomato);
+}
+
+.logos__redes--icon {
+    width: 3.5rem;
+    margin-right: 1rem;
+}
+
+/* === About Us === */
